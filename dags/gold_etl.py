@@ -2,7 +2,10 @@ def gold_layer_etl():
     import pandas as pd
     import psycopg2
     from psycopg2 import sql, OperationalError
-
+    from dotenv import load_dotenv
+    import os
+    
+    load_dotenv
     def check_postgres_connection(host, dbname, user, password, port=5444):
         """Check PostgreSQL connection."""
         try:
@@ -144,7 +147,7 @@ def gold_layer_etl():
     host = "73.167.111.240"  
     dbname = "postgres"  
     user = "postgres" 
-    password = "Ch0wd@ry" 
+    password = os.getenv('POSTGRES_PASSWORD')
     port = 5444  
 
     

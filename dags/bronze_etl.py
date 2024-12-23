@@ -5,13 +5,18 @@ def bronze_layer_etl():
     import boto3
     from datetime import datetime
     import os
+    from dotenv import load_dotenv
+
+    load_dotenv()  
     print(os.getuid())
     session = boto3.Session(profile_name='sravan')
     client = session.client('s3', region_name='us-west-2')
 
     url = "https://api.apify.com/v2/datasets"
+    
+    token = os.environ.get('APIFY_API_TOKEN')
     params = {
-        "token": "apify_api_Hix0y29ddpgD9PoOahbMHWsTKs8Hiy4xYXN7",
+        "token": token ,
         "unnamed": 1
     }
 
@@ -33,10 +38,7 @@ def bronze_layer_etl():
         exit()
 
     csv_url = f"https://api.apify.com/v2/datasets/{first_id}/items"
-    params = {
-        "token": "apify_api_Hix0y29ddpgD9PoOahbMHWsTKs8Hiy4xYXN7",
-        "format": "csv"
-    }
+   
 
     response = requests.get(csv_url, params=params)
 
