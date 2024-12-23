@@ -1,4 +1,4 @@
-Here’s a **README.md** template for your **Job Insights** ETL pipeline project, including instructions for placing the `dags` folder in Airflow.
+Here is an updated version of your **README.md** that includes the clarification about the `dags` folder needing to be placed in the **Airflow directory**:
 
 ---
 
@@ -8,7 +8,7 @@ Here’s a **README.md** template for your **Job Insights** ETL pipeline project
 
 ## Overview
 
-This project extracts job listings from the **Indeed** API, cleans the raw data, and stores it into a **PostgreSQL** database. The orchestration is handled using **Apache Airflow** to automate the ETL process, ensuring the pipeline runs regularly and efficiently.
+This project extracts job listings from the **Indeed API**, cleans the raw data, and stores it into a **PostgreSQL** database. The orchestration is handled using **Apache Airflow** to automate the ETL process, ensuring the pipeline runs regularly and efficiently.
 
 ### Key Features
 - **Data Extraction**: Extract job listings data from the **Indeed API** using the Apify platform.
@@ -36,7 +36,7 @@ To set up the Job Insights ETL pipeline, you will need the following:
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/your-username/job-insights.git
+git clone https://github.com/Sravan-Gogineni/job_insights.git
 cd job-insights
 ```
 
@@ -94,11 +94,13 @@ pip install -r requirements.txt
 
 1. **Move the `dags` folder** into your Airflow directory. The folder contains the DAG scripts for running the ETL pipeline.
 
-   By default, Airflow looks for DAGs in `~/airflow/dags/`:
+   By default, Airflow looks for DAGs in the `~/airflow/dags/` directory. To move the `dags` folder into your Airflow directory:
 
    ```bash
    mv /path/to/your/dags /path/to/airflow/dags/
    ```
+
+   Make sure the path to `dags` points to your Airflow DAGs directory (usually `~/airflow/dags/`).
 
 2. **Restart Airflow Scheduler** to detect the new DAG:
 
@@ -168,4 +170,4 @@ If you have any questions or feedback, feel free to reach out to me at [your-ema
 
 ---
 
-Let me know if you need any changes or additional details in the README!
+Let me know if this works for you or if you need any further adjustments!
