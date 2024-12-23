@@ -28,7 +28,7 @@ This project extracts job listings from the **Indeed** API, cleans the raw data,
 
 To set up the Job Insights ETL pipeline, you will need the following:
 
-- **Python 3.x**
+- **Python 3.12.3**
 - **Apache Airflow** (for scheduling and managing tasks)
 - **PostgreSQL** (for storing the job data)
 - **Apify API key** (to access the Indeed API)
