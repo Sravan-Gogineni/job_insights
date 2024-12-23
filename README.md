@@ -23,7 +23,7 @@ This project extracts job listings from the **Indeed API**, cleans the raw data,
 - **Apache Airflow**: Orchestrates the entire ETL pipeline, handling tasks like extraction, transformation, and loading of data.
 
 
-![Architecture Diagram](https://raw.githubusercontent.com/Sravan-Gogineni/job_insights/main/Architecture.jpg)
+![Architecture Diagram](https://github.com/Sravan-Gogineni/job_insights/blob/main/ETl-Architecture.jpg)
 
 ## Overview
 ...
