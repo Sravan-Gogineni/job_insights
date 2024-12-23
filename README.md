@@ -22,6 +22,12 @@ This project extracts job listings from the **Indeed API**, cleans the raw data,
 - **PostgreSQL**: Stores cleaned job listings data in a structured format.
 - **Apache Airflow**: Orchestrates the entire ETL pipeline, handling tasks like extraction, transformation, and loading of data.
 
+
+![Architecture Diagram](https://raw.githubusercontent.com/Sravan-Gogineni/job_insights/main/Architecture.jpg)
+
+## Overview
+...
+
 ## Installation and Setup
 
 ### Prerequisites
