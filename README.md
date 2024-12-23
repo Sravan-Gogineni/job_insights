@@ -150,24 +150,4 @@ job-insights/
 - **PostgreSQL**: For storing the cleaned job listings data.
 - **Python**: For building the ETL pipeline and handling API requests, data cleaning, and database interactions.
 
-## Contributing
 
-We welcome contributions to improve and expand this project. If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit them (`git commit -am 'Add new feature'`).
-4. Push your changes (`git push origin feature-branch`).
-5. Open a pull request.
-
-## License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-If you have any questions or feedback, feel free to reach out to me at [your-email@example.com].
-
----
-
-Let me know if this works for you or if you need any further adjustments!
