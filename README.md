@@ -126,7 +126,7 @@ The project directory should look like this:
 job-insights/
 │
 ├── dags/                    # Folder containing Airflow DAGs
-│   ├── job_insights_dag.py   # Main DAG file
+│   ├── jobs_dag.py   # Main DAG file
 │   └── ...
 │
 ├── requirements.txt          # List of dependencies
