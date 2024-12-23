@@ -121,7 +121,7 @@ pip install -r requirements.txt
 - You can trigger the DAG either from the Airflow UI or run it manually via the command line:
 
   ```bash
-  airflow dags trigger job_insights
+  airflow dags trigger jobs_dag
   ```
 
 ### Directory Structure
