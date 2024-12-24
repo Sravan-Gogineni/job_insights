@@ -103,7 +103,7 @@ pip install -r requirements.txt
    By default, Airflow looks for DAGs in the `~/airflow/dags/` directory. To move the `dags` folder into your Airflow directory:
 
    ```bash
-   mv /path/to/your/dags /path/to/airflow/dags/
+   mv /job_insights/dags /path/to/airflow/dags/
    ```
 
    Make sure the path to `dags` points to your Airflow DAGs directory (usually `~/airflow/dags/`).
