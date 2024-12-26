@@ -2,7 +2,7 @@ Here is an updated version of your **README.md** that includes the clarification
 
 ---
 
-# Job Insights ETL Pipeline
+# Job Insights ETL
 
 **Job Insights** is an ETL pipeline designed to extract, clean, and load job listings data from the **Indeed API** using Apify, and ingest the data into a **PostgreSQL** database. The entire process is orchestrated using **Apache Airflow** to ensure smooth automation and scheduling.
 
