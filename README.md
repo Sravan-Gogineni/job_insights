@@ -25,7 +25,7 @@ This project extracts job listings from the **Indeed API**, cleans the raw data,
 
 ![Architecture Diagram](https://github.com/UNH-TCOE-ECECS/F25-TeamDino/blob/main/Dino-Architecture.png)
 
-![Database Schema](https://github.com/UNH-TCOE-ECECS/F25-TeamDino/blob/main/order_taking_system_schemas-2.pdf)
+![Database Schema](https://github.com/UNH-TCOE-ECECS/F25-TeamDino/blob/main/order_taking_system_schemas-2_page-0001.jpg)
 
 ## Overview
 ...
